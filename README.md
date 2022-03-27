@@ -14,7 +14,7 @@ py -3 -m venv venv
 <h4>macOS/Linux:</h4>
 . venv/scripts/activate
 <h4>Windows:</h4>
-venv\Scripts\activate
+venv/Scripts/activate
 
 <h3>3.Install Flask</h3>
 pip install Flask
@@ -23,9 +23,12 @@ pip install Flask
 pip install -r requirements.txt
 
 <h2>Run</h2>
-<h4>Bash:</h4>
-export FLASK_APP=main.py<br/>
+<h4>macOS/Linux:</h4>
+export FLASK_APP=main<br/>
 flask run<br/>
-<h4>CMD:</h4>
-set FLASK_APP=main.py<br/>
+<h4>Windows/CMD:</h4>
+set FLASK_APP=main<br/>
+<h4>Windows/Powershell:</h4>
+$env:FLASK_APP = "main.py"
+
 flask run

@@ -29,6 +29,6 @@ flask run<br/>
 <h4>Windows/CMD:</h4>
 set FLASK_APP=main<br/>
 <h4>Windows/Powershell:</h4>
-$env:FLASK_APP = "main.py"
+$env:FLASK_APP = "main.py"<br/><br/>
 
 flask run
